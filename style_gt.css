@@ -1,0 +1,109 @@
+body {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(169, 171, 174); */
+    /* background-image: url("C:\Users\User\Desktop\hmm\wd\g38817mqb1361.png"); */
+    /* background-image: linear-gradient(rgb(35, 35, 215),rgb(0, 0, 0)); */
+    /* background-image: url("C:/Users/User/Desktop/hmm/wd/security-hero-bg-5dbb4c212d63.jpg"); */
+    background-image: url("C:/Users/User/Desktop/hmm/wd/dev-policy-bg@2x-9489caa49496.jpg");
+    /* margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%; */
+    overflow: hidden;
+    
+    
+
+}
+
+.container{
+
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 0.5rem 0.5rem 0.5re 0.5rem; */
+    /* border: 10rem ;
+    border-color: black; */
+    height: 100vh;
+    width: 100vh;
+    /* padding : 1vh; */
+    margin: auto;
+    padding: 1% 1% 1% 1%;
+    
+}
+
+img{
+    height: 30%;
+    border-radius: 100%;
+    background-image: linear-gradient(rgb(35, 35, 215),rgb(0, 0, 0));
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: aliceblue;
+}
+
+#entry_field {
+    width: 95%;
+    height: 5%;
+    padding: 1% 1% 1% 1%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.25rem;
+    color: black;
+    border-radius: 50px;
+}
+
+button{
+    cursor: pointer;
+    height: 7%;
+    width: 50%;
+    background-color: rgb(204, 112, 0);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.25rem;
+    color: black;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+
+#display {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: start;
+    padding: 3% 3% 3% 3%;
+    width: 90%;
+    height: 20%;
+    /* background-image: linear-gradient(rgb(57, 56, 56),rgb(33, 33, 33)); */
+    border-radius: 20px;
+} 
+
+.display_text{
+    display: flex;
+    flex-direction: column;
+    color: azure;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    /* box-sizing: border-box; */
+    height: 25%;
+    width: 27%;
+    padding: 3%;
+
+}
+
+.display_val{
+    color: rgb(255, 0, 0);
+    padding: 7px 7px 7px 7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: 1rem;
+
+}
+
+
