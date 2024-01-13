@@ -235,6 +235,9 @@ button{
     .display_val{
         font-size: 0.65rem ;
     }
+    .container{
+        height: 90vh;
+    }
 }
 
 
