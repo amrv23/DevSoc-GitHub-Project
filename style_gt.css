@@ -7,6 +7,7 @@ body {
     /* background-image: linear-gradient(rgb(35, 35, 215),rgb(0, 0, 0)); */
     /* background-image: url("C:/Users/User/Desktop/hmm/wd/security-hero-bg-5dbb4c212d63.jpg"); */
     background-image: url("dev-policy-bg@2x-9489caa49496.jpg");
+    background-attachment: fixed;
     /* margin-top: 5%;
     margin-bottom: 5%;
     margin-left: 5%;
@@ -144,37 +145,37 @@ button{
 @media (min-width: 1024px) and (max-width: 1440px){
 
     h1{
-        font-size: 4rem;
+        font-size: 3rem;
     }
     #entry_field{
-        font-size: 2rem;
+        font-size: 1.25rem;
     }
     button{
-        font-size: 2rem;
+        font-size: 1.5rem;
+    }
+    .display_text{
+        font-size: 1rem;
+    }
+    .display_val{
+        font-size: 1rem ;
+    }
+}
+@media (min-width: 912px) and (max-width: 1023px){
+
+    h1{
+        font-size: 2.5rem;
+    }
+    #entry_field{
+        font-size: 1rem;
+    }
+    button{
+        font-size: 1.25rem;
     }
     .display_text{
         font-size: 1.5rem;
     }
     .display_val{
         font-size: 1.5rem ;
-    }
-}
-@media (min-width: 912px) and (max-width: 1023px){
-
-    h1{
-        font-size: 3rem;
-    }
-    #entry_field{
-        font-size: 1.75rem;
-    }
-    button{
-        font-size: 1.75rem;
-    }
-    .display_text{
-        font-size: 1.65rem;
-    }
-    .display_val{
-        font-size: 1.65rem ;
     }
 }
 
