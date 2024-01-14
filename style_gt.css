@@ -220,15 +220,22 @@ button{
 
 @media (min-width: 280px) and (max-width: 411px){
 
+    body{
+        overflow: hidden;
+    }
     h1{
-        font-size: 1.25rem;
+        font-size: 1.75rem;
     }
     #entry_field{
         font-size: 0.9rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+
         /* width: 80% */
     }
     button{
         font-size: 0.9rem;
+        margin-bottom: 2rem;
     }
     .display_text{
         font-size: 0.65rem;
