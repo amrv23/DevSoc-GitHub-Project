@@ -7,7 +7,9 @@ var namev = document.getElementById("name_val")
 var comp = document.getElementById("company_val")
 var repov = document.getElementById("repo_val")
 var logo = document.getElementById("logo")
+var disp = document.getElementById("display")
 
+disp.style.visibility = 'hidden'
 
 btn.addEventListener("click",function(event)
 {
@@ -36,6 +38,8 @@ btn.addEventListener("click",function(event)
             folv.innerHTML = data.following
             repov.innerHTML = data.public_repos
             logo.src = data.avatar_url
+
+            disp.style.visibility = 'visible'
         }
         catch(error){
             logo.src = "C:/Users/User/Desktop/hmm/wd/download.png"
